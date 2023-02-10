@@ -3,7 +3,6 @@
   height: 50px;
 
   border: none;
-  outline: none;
 
   background-color: #f1d264;
   border-radius: 5px;
@@ -19,6 +18,8 @@
   &:hover {
     background-color: darken(#f1d264, 10%);
   }
+
+  &:focus {}
 }
 
 .button__image {
