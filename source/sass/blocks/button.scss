@@ -1,0 +1,34 @@
+.button {
+  width: 174px;
+  height: 50px;
+
+  border: none;
+  outline: none;
+
+  background-color: #f1d264;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: background .2s linear;
+
+  &:hover {
+    background-color: darken(#f1d264, 10%);
+  }
+}
+
+.button__image {
+  margin-right: 10px;
+}
+
+.button__text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}

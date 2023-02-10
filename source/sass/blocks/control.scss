@@ -1,0 +1,42 @@
+.control {
+  width: 100px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border: 1px solid #ecf0f4;
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+  @media(max-width: 725px) {
+    display: none;
+  }
+}
+
+.control__button {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  &--minus {
+    background-image: url("../img/icons/minus.svg");
+  }
+
+  &--plus {
+    background-image: url("../img/icons/plus.svg");
+  }
+}
+
+.control__counter {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: #4c4e50;
+}
